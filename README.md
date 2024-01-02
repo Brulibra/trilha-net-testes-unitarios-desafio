@@ -74,8 +74,4 @@ Classe responsável por realizar os testes da classe ValidacoesString.
 | ValidacoesStringTests | NaoDeveConterAPalavraTesteNoTexto                | Ao passar um texto escrito "Esse é um texto qualquer" e procurar pela palavra "teste", deve retornar falso pois a palavra não existe no texto                                                    |
 | ValidacoesStringTests | TextoDeveTerminarComAPalavraProcurado            | Ao passar um texto escrito "Começo, meio e fim do texto procurado" e procurar pela palavra "procurado", deve retornar verdadeiro pois a palavra existe no texto e está inclusa no final do texto |
 
-## Estrutura do projeto
 
-O projeto está estruturado da seguinte maneira:
-
-![Métodos Swagger](Imagens/projeto.png)
