@@ -1,6 +1,8 @@
 # DIO - Trilha .NET - Testes Unitários com C#
 www.dio.me
 
+> Desenvolvido por [Bruna de Paula](www.linkedin.com/in/brunadpaula)
+
 ## Desafio de projeto
 Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de Testes Unitários com C#, da trilha .NET da DIO.
 
@@ -11,8 +13,10 @@ Feito isso, você sugeriu a implementação de testes unitários: escrever teste
 
 Os gestores aceitaram a sua ideia, e com isso, você precisa implementar testes unitários no sistema.
 
-## Premissas
-O sistema hoje possui dois projetos: um do tipo console, e um do tipo testes com **xUnit**. O projeto do tipo console possui duas classes em que são realizadas as lógicas principais: **ValidacoesLista** e **ValidacoesString**. Essas classes contém métodos em comum que são usados para realizar diversas validações em determinados cenários.
+> O código de testes está pela metade, e você deverá dar continuidade implementando os testes descritos abaixo, para que no final, tenhamos um programa de testes funcional.
+
+## 🎯 Objetivos
+O sistema hoje possui dois projetos: um do tipo console, que possui duas classes em que são realizadas as lógicas principais: **ValidacoesLista** e **ValidacoesString**. 
 
 O projeto de testes possui as classes de teste **ValidacoesListaTests** e **ValidacoesStringTests**, assim como seus métodos para validar o projeto do tipo console, porém estão incompletos. 
 
@@ -75,7 +79,3 @@ Classe responsável por realizar os testes da classe ValidacoesString.
 O projeto está estruturado da seguinte maneira:
 
 ![Métodos Swagger](Imagens/projeto.png)
-
-
-## Solução
-O código de testes está pela metade, e você deverá dar continuidade implementando os testes descritos acima, para que no final, tenhamos um programa de testes funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
